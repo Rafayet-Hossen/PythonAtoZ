@@ -11,6 +11,8 @@ print(people[-3:-1])
 #in and not in the list
 print('John' in people)
 print('John' not in people)
+print(f'The len of the list is {len(people)}')
+print(f'The index of John is {people.index("Jim")}')
 print(people.count('Rafayet'))
 for person in people:
     print(person)
