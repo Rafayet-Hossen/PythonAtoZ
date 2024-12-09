@@ -8,7 +8,9 @@ people.append('Jim')
 #line 9 and line 10 code are return same output one is positive and other with negative index
 print(people[2:4])
 print(people[-3:-1])
-
+#in and not in the list
+print('John' in people)
+print('John' not in people)
 print(people.count('Rafayet'))
 for person in people:
     print(person)
