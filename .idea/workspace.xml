@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="tuples in python and some function">
-      <change afterPath="$PROJECT_DIR$/Dictionary.py" afterDir="false" />
+    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="create dictionary using dict and some method">
+      <change afterPath="$PROJECT_DIR$/dictionarymethod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +49,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Dictionary.executor": "Run",
+    "Python.DictionaryExtend.executor": "Run",
     "Python.Hello.executor": "Run",
     "Python.List.executor": "Run",
     "Python.ListMax.executor": "Run",
     "Python.Listextends.executor": "Run",
     "Python.Tuplpes.executor": "Run",
+    "Python.dictionarymethod.executor": "Run",
     "Python.nestedlist.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -86,7 +88,7 @@
       <updated>1733757272255</updated>
       <workItem from="1733757273535" duration="482000" />
       <workItem from="1733757767207" duration="9496000" />
-      <workItem from="1733859373962" duration="810000" />
+      <workItem from="1733859373962" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="list slicing">
       <option name="closed" value="true" />
@@ -128,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733859686331</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dictionary basice and some methods">
+      <option name="closed" value="true" />
+      <created>1733860208798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733860208798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create dictionary using dict and some method">
+      <option name="closed" value="true" />
+      <created>1733860585338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733860585338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,14 +158,18 @@
     <MESSAGE value="explore some list methods" />
     <MESSAGE value="nesting list and access element" />
     <MESSAGE value="tuples in python and some function" />
-    <option name="LAST_COMMIT_MESSAGE" value="tuples in python and some function" />
+    <MESSAGE value="Dictionary basice and some methods" />
+    <MESSAGE value="create dictionary using dict and some method" />
+    <option name="LAST_COMMIT_MESSAGE" value="create dictionary using dict and some method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBasic$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1733764859986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1733860155251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$DictionaryExtend.coverage" NAME="DictionaryExtend Coverage Results" MODIFIED="1733860478704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Listextends.coverage" NAME="Listextends Coverage Results" MODIFIED="1733772813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$List.coverage" NAME="List Coverage Results" MODIFIED="1733773813826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Tuplpes.coverage" NAME="Tuplpes Coverage Results" MODIFIED="1733859553213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$dictionarymethod.coverage" NAME="dictionarymethod Coverage Results" MODIFIED="1733860765543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$ListMax.coverage" NAME="ListMax Coverage Results" MODIFIED="1733773884714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$nestedlist.coverage" NAME="nestedlist Coverage Results" MODIFIED="1733774161085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
