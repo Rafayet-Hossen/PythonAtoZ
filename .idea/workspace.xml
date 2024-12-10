@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="nesting list and access element">
+    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="tuples in python and some function">
+      <change afterPath="$PROJECT_DIR$/Dictionary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rafayet-Hossen"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rafayet-Hossen&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rafayet-Hossen/PythonAtoZ.git",
-    "accountId": "9f4034f4-0009-407d-8ad7-179085b85f6f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rafayet-Hossen/PythonAtoZ.git&quot;,
+    &quot;accountId&quot;: &quot;9f4034f4-0009-407d-8ad7-179085b85f6f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -47,10 +48,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Dictionary.executor": "Run",
     "Python.Hello.executor": "Run",
     "Python.List.executor": "Run",
     "Python.ListMax.executor": "Run",
     "Python.Listextends.executor": "Run",
+    "Python.Tuplpes.executor": "Run",
     "Python.nestedlist.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -83,6 +86,7 @@
       <updated>1733757272255</updated>
       <workItem from="1733757273535" duration="482000" />
       <workItem from="1733757767207" duration="9496000" />
+      <workItem from="1733859373962" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="list slicing">
       <option name="closed" value="true" />
@@ -116,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733774319606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tuples in python and some function">
+      <option name="closed" value="true" />
+      <created>1733859686331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733859686331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,12 +139,15 @@
     <MESSAGE value="list in and not in the list method" />
     <MESSAGE value="explore some list methods" />
     <MESSAGE value="nesting list and access element" />
-    <option name="LAST_COMMIT_MESSAGE" value="nesting list and access element" />
+    <MESSAGE value="tuples in python and some function" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuples in python and some function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBasic$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1733764859986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1733860155251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Listextends.coverage" NAME="Listextends Coverage Results" MODIFIED="1733772813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$List.coverage" NAME="List Coverage Results" MODIFIED="1733773813826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$Tuplpes.coverage" NAME="Tuplpes Coverage Results" MODIFIED="1733859553213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$ListMax.coverage" NAME="ListMax Coverage Results" MODIFIED="1733773884714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$nestedlist.coverage" NAME="nestedlist Coverage Results" MODIFIED="1733774161085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
