@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="some more set method">
-      <change afterPath="$PROJECT_DIR$/Excercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2.py" afterDir="false" />
+    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="Do some exercise">
+      <change afterPath="$PROJECT_DIR$/DictionaryExercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
   "keyToString": {
     "Python.DictUpdate.executor": "Run",
     "Python.Dictionary.executor": "Run",
+    "Python.DictionaryExercise.executor": "Run",
     "Python.DictionaryExtend.executor": "Run",
     "Python.Excercise.executor": "Run",
     "Python.Exercise2.executor": "Run",
@@ -95,7 +95,8 @@
       <updated>1733757272255</updated>
       <workItem from="1733757273535" duration="482000" />
       <workItem from="1733757767207" duration="9496000" />
-      <workItem from="1733859373962" duration="4942000" />
+      <workItem from="1733859373962" duration="5605000" />
+      <workItem from="1734021810683" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="list slicing">
       <option name="closed" value="true" />
@@ -193,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733863184758</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Do some exercise">
+      <option name="closed" value="true" />
+      <created>1733864325787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733864325787</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="Set and the property of set" />
     <MESSAGE value="some set operations" />
     <MESSAGE value="some more set method" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more set method" />
+    <MESSAGE value="Do some exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Do some exercise" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBasic$SetMethod.coverage" NAME="SetMethod Coverage Results" MODIFIED="1733862532108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
