@@ -1,14 +1,21 @@
 def save_user_data():
-    name = input("enter your name: ")
-    email = input("enter your email: ")
-    contact = input("enter your contact: ")
-
-    user_data = f'Name: {name}\nEmail: {email}\nContact: {contact}\n'
-    with open("user_data.txt", "a") as file:
-        file.write(user_data)
-
+    name = input("Enter Your Name: ")
+    email = input("Enter Your Email: ")
+    contact = input("Enter Your Contact: ")
+    with open("datasheet.txt","a") as file:
+        information = f'{name}\n{email}\n{contact}\n'
+        file.write(information)
 def read_user_date():
-    with open('user_data.txt', 'r') as file:
-        print(file.read())
+    with open("datasheet.txt","r") as file:
+        information = file.readlines()
+        for info in information:
+            print(info.strip())
 
-read_user_date()
+while True:
+    choice = input("Do you want to save your data? (y/n): ")
+    if choice == "y":
+        save_user_data()
+    else:
+        read_user_date()
+        break
+
