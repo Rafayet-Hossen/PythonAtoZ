@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="file to save user data" />
+    <list default="true" id="ed99de0b-04a8-4090-838e-5583e045901f" name="Changes" comment="File handling exercise practice">
+      <change afterPath="$PROJECT_DIR$/File Handle/json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +74,7 @@
     "Python.dictionarymethod.executor": "Run",
     "Python.errors.executor": "Run",
     "Python.forloop.executor": "Run",
+    "Python.json.executor": "Run",
     "Python.module.executor": "Run",
     "Python.nestedlist.executor": "Run",
     "Python.range.executor": "Run",
@@ -110,6 +114,7 @@
       <workItem from="1734021810683" duration="10617000" />
       <workItem from="1734284823177" duration="1768000" />
       <workItem from="1734286662471" duration="7055000" />
+      <workItem from="1734458163461" duration="1651000" />
     </task>
     <task id="LOCAL-00001" summary="list slicing">
       <option name="closed" value="true" />
@@ -263,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734295907116</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="File handling exercise practice">
+      <option name="closed" value="true" />
+      <created>1734458830526</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734458830526</updated>
+    </task>
+    <task id="LOCAL-00021" summary="File handling exercise practice">
+      <option name="closed" value="true" />
+      <created>1734458845119</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734458845119</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +320,8 @@
     <MESSAGE value="file handling in python and some method" />
     <MESSAGE value="Exercise using file in python" />
     <MESSAGE value="file to save user data" />
-    <option name="LAST_COMMIT_MESSAGE" value="file to save user data" />
+    <MESSAGE value="File handling exercise practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="File handling exercise practice" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBasic$Listextends.coverage" NAME="Listextends Coverage Results" MODIFIED="1733772813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -307,13 +329,14 @@
     <SUITE FILE_PATH="coverage/PythonBasic$Tuplpes.coverage" NAME="Tuplpes Coverage Results" MODIFIED="1733859553213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$stripe.coverage" NAME="stripe Coverage Results" MODIFIED="1734294535285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Handle" />
     <SUITE FILE_PATH="coverage/PythonBasic$errors.coverage" NAME="errors Coverage Results" MODIFIED="1734288514314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ErrorHandeling" />
-    <SUITE FILE_PATH="coverage/PythonBasic$ListMax.coverage" NAME="ListMax Coverage Results" MODIFIED="1733773884714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Exercise2.coverage" NAME="Exercise2 Coverage Results" MODIFIED="1733864225196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$ListMax.coverage" NAME="ListMax Coverage Results" MODIFIED="1733773884714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$module.coverage" NAME="module Coverage Results" MODIFIED="1734286316829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1733860155251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$range.coverage" NAME="range Coverage Results" MODIFIED="1734031190998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$forloop.coverage" NAME="forloop Coverage Results" MODIFIED="1734033586947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Sets.coverage" NAME="Sets Coverage Results" MODIFIED="1733861723409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasic$json.coverage" NAME="json Coverage Results" MODIFIED="1734459373995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Handle" />
     <SUITE FILE_PATH="coverage/PythonBasic$SetMethod.coverage" NAME="SetMethod Coverage Results" MODIFIED="1733862532108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1733764859986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$DictUpdate.coverage" NAME="DictUpdate Coverage Results" MODIFIED="1733861090196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -331,6 +354,6 @@
     <SUITE FILE_PATH="coverage/PythonBasic$DictionaryExercise.coverage" NAME="DictionaryExercise Coverage Results" MODIFIED="1734022058263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$List.coverage" NAME="List Coverage Results" MODIFIED="1733773813826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasic$File.coverage" NAME="File Coverage Results" MODIFIED="1734293749866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Handle" />
-    <SUITE FILE_PATH="coverage/PythonBasic$ExerciseExtends.coverage" NAME="ExerciseExtends Coverage Results" MODIFIED="1734295804380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Handle" />
+    <SUITE FILE_PATH="coverage/PythonBasic$ExerciseExtends.coverage" NAME="ExerciseExtends Coverage Results" MODIFIED="1734458723721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File Handle" />
   </component>
 </project>
