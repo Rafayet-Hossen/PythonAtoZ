@@ -2,6 +2,16 @@ import json
 import os
 user_list = []
 
+def read_user_data():
+    if os.path.exists("user_data.json"):
+        with open("user_data.json", "r") as f:
+            load_date = json.load(f)
+            for info in load_date:
+                print(info['name'])
+                print(info['email'])
+                print(info['contact'])
+
+
 while True:
     name = input("Enter (exit) means Exit else Enter Name: ")
     if name == "exit":
@@ -21,3 +31,5 @@ while True:
         print("User Data Saved Successfully")
     except FileNotFoundError as error:
         print(error)
+
+read_user_data()
