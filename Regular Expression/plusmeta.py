@@ -1,9 +1,7 @@
-#Meta Characters
 import re
 
-string = "bc"
-
-pattern = "ab*c"
+string = "aac"
+pattern = "a{2}c"
 
 if re.match(pattern,string):
     print("Match pattern")
